@@ -1,0 +1,1372 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section_div {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Lora', serif;
+}
+
+.poppup_div {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Lora', serif;
+}
+
+.body_color {
+    background-color: #40015f;
+}
+
+.bg_colo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100% !important;
+}
+
+.main_div {
+    width: 30% !important;
+    border-radius: 25px;
+    padding: 25px 25px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    background-color: white;
+}
+
+.pading_50 {
+    padding: 50px 25px !important;
+}
+
+.social_icon {
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+.sponsor {
+    font-size: 25px;
+    font-family: 500;
+    margin-top: 20px;
+}
+
+.logo_img {
+    display: flex;
+    gap: 20px;
+}
+
+.sponsorship_box p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 0px 0px 0px;
+}
+
+.brand {
+    height: 100px;
+    width: 22%;
+    /* margin: 12px; */
+    padding: 3px 8px;
+    border: 1px solid #34343482;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.brand_modal {
+    height: 100px;
+    width: 25%;
+    /* margin: 12px; */
+    padding: 3px 8px;
+    border: 1px solid #34343482;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+
+}
+
+.modalPopup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.253);
+    backdrop-filter: blur(3px);
+}
+
+.poppup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: white;
+}
+
+.poppup span {
+    font-size: 18px;
+    font-weight: 700;
+    float: right;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.small_contant {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.brand_popup {
+
+    height: 100px;
+    width: 25%;
+    margin: 0px 15px;
+    padding: 3px 8px;
+    border: 1px solid #34343482;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button 1b */
+.btn_sub {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+.btn_sub a {
+    color: black;
+    text-decoration: unset;
+}
+
+/* poppup css and next pages */
+.icon_link a {
+    text-decoration: none;
+}
+
+.social_mid {
+    width: 100%;
+    padding: 10px 05px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #552e57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* poppup css and next pages END*/
+
+.acto_scrip {
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+.acto_scrip a {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .sponsor {
+        font-size: 25px;
+        font-family: 500;
+    }
+
+    .logo_img {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sponsorship_box p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .brand {
+        height: 10vh;
+        width: 15%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main_div {
+        width: 30% !important;
+        border-radius: 25px;
+        padding: 20px 25px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .section_div {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .sponsor {
+        font-size: 25px;
+        font-family: 500;
+    }
+
+    .logo_img {
+        display: flex;
+        gap: 20px;
+    }
+
+    .sponsorship_box p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .brand {
+        height: 10vh;
+        width: 15%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main_div {
+        width: 30% !important;
+        border-radius: 25px;
+        padding: 20px 25px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .section_div {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .sponsor {
+        font-size: 25px;
+        font-family: 500;
+    }
+
+    .logo_img {
+        display: flex;
+        gap: 20px;
+    }
+
+    .sponsorship_box p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .brand {
+        height: 10vh;
+        width: 20%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main_div {
+        width: 50% !important;
+        border-radius: 25px;
+        padding: 20px 25px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .section_div {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sponsor {
+        font-size: 25px;
+        font-family: 500;
+    }
+
+    .logo_img {
+        display: flex;
+        gap: 20px;
+    }
+
+    .sponsorship_box p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .brand {
+        height: 10vh;
+        width: 20%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main_div {
+        width: 80% !important;
+        border-radius: 25px;
+        padding: 20px 25px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .section_div {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .brand_modal {
+        height: 100px;
+        width: 45%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+
+    }
+
+    /* poppup css and next pages */
+    .icon_link a {
+        text-decoration: none;
+    }
+
+    .social_mid {
+        width: 100%;
+        padding: 10px 05px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #552e57;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+    /* poppup css and next pages END*/
+
+    .acto_scrip {
+        padding-top: 30px;
+        font-size: 13px;
+    }
+
+    .acto_scrip a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .sponsor {
+        font-size: 25px;
+        font-family: 500;
+    }
+
+    .logo_img {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sponsorship_box p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .brand {
+        height: 10vh;
+        width: 30%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .poppup {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        height: 50vh;
+        background-color: white;
+        overflow: scroll;
+        border-radius: 15px;
+    }
+
+    .brand_popup {
+        height: 100px;
+        width: 100%;
+        margin: 0px 0px;
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small_contant {
+        flex-wrap: wrap;
+    }
+
+    .img-fluidd {
+        max-width: 100%;
+        height: 70%;
+    }
+
+    .mt_15 {
+        margin-top: 15px;
+    }
+
+    .main_div {
+        width: 95% !important;
+        border-radius: 25px;
+        padding: 20px 25px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .section_div {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+    .poppup_div {
+        position: relative;
+        height: 120vh;
+        width: 100%;
+        font-family: 'Lora', serif;
+    }
+
+    .brand_modal {
+        height: 100px;
+        width: 45%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+
+    }
+}
+
+@media only screen and (max-width: 428px) {
+
+    /* poppup css and next pages */
+    .icon_link a {
+        text-decoration: none;
+    }
+
+    .social_mid {
+        width: 100%;
+        padding: 10px 05px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #552e57;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+    /* poppup css and next pages END*/
+
+    .acto_scrip {
+        padding-top: 30px;
+        font-size: 13px;
+    }
+
+    .acto_scrip a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .sponsor {
+        font-size: 25px;
+        font-family: 500;
+    }
+
+    .logo_img {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sponsorship_box p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .brand {
+        height: 10vh;
+        width: 25%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .poppup {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        height: 50vh;
+        background-color: white;
+        overflow: scroll;
+        border-radius: 15px;
+    }
+
+    .brand_popup {
+        height: 100px;
+        width: 100%;
+        margin: 0px 0px;
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small_contant {
+        flex-wrap: wrap;
+    }
+
+    .img-fluidd {
+        max-width: 100%;
+        height: 70%;
+    }
+
+    .mt_15 {
+        margin-top: 15px;
+    }
+
+    .main_div {
+        width: 95% !important;
+        border-radius: 25px;
+        padding: 20px 25px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .section_div {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .poppup_div {
+        position: relative;
+        height: 120vh;
+        width: 100%;
+        font-family: 'Lora', serif;
+    }
+
+    .brand_modal {
+        height: 100px;
+        width: 45%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* poppup css and next pages */
+    .icon_link a {
+        text-decoration: none;
+    }
+
+    .social_mid {
+        width: 100%;
+        padding: 10px 05px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #552e57;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+    /* poppup css and next pages END*/
+
+    .acto_scrip {
+        padding-top: 30px;
+        font-size: 13px;
+    }
+
+    .acto_scrip a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .sponsor {
+        font-size: 25px;
+        font-family: 500;
+    }
+
+    .logo_img {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sponsorship_box p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .brand {
+        height: 10vh;
+        width: 25%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .poppup {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        height: 50vh;
+        background-color: white;
+        overflow: scroll;
+        border-radius: 15px;
+    }
+
+    .brand_popup {
+        height: 100px;
+        width: 100%;
+        margin: 0px 0px;
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small_contant {
+        flex-wrap: wrap;
+    }
+
+    .img-fluidd {
+        max-width: 100%;
+        height: 70%;
+    }
+
+    .mt_15 {
+        margin-top: 15px;
+    }
+
+    .main_div {
+        width: 95% !important;
+        border-radius: 25px;
+        padding: 20px 25px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .section_div {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .poppup_div {
+        position: relative;
+        height: 125vh;
+        width: 100%;
+        font-family: 'Lora', serif;
+    }
+
+    .brand_modal {
+        height: 100px;
+        width: 45%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+
+    }
+}
+
+@media only screen and (max-width: 390px) {
+
+    /* poppup css and next pages */
+    .icon_link a {
+        text-decoration: none;
+    }
+
+    .social_mid {
+        width: 100%;
+        padding: 10px 05px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #552e57;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+    /* poppup css and next pages END*/
+
+    .acto_scrip {
+        padding-top: 30px;
+        font-size: 13px;
+    }
+
+    .acto_scrip a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .sponsor {
+        font-size: 25px;
+        font-family: 500;
+    }
+
+    .logo_img {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sponsorship_box p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .brand {
+        height: 10vh;
+        width: 28%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .poppup {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        height: 50vh;
+        background-color: white;
+        overflow: scroll;
+        border-radius: 15px;
+    }
+
+    .brand_popup {
+        height: 100px;
+        width: 100%;
+        margin: 0px 0px;
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small_contant {
+        flex-wrap: wrap;
+    }
+
+    .img-fluidd {
+        max-width: 100%;
+        height: 70%;
+    }
+
+    .mt_15 {
+        margin-top: 15px;
+    }
+
+    .main_div {
+        width: 95% !important;
+        border-radius: 25px;
+        padding: 20px 25px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .section_div {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .poppup_div {
+        position: relative;
+        height: 120vh;
+        width: 100%;
+        font-family: 'Lora', serif;
+    }
+
+    .brand_modal {
+        height: 100px;
+        width: 45%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    /* poppup css and next pages */
+    .icon_link a {
+        text-decoration: none;
+    }
+
+    .social_mid {
+        width: 100%;
+        padding: 10px 05px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #552e57;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+    /* poppup css and next pages END*/
+
+    .acto_scrip {
+        padding-top: 30px;
+        font-size: 13px;
+    }
+
+    .acto_scrip a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .sponsor {
+        font-size: 25px;
+        font-family: 500;
+    }
+
+    .logo_img {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sponsorship_box p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .brand {
+        height: 10vh;
+        width: 28%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .poppup {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        height: 50vh;
+        background-color: white;
+        overflow: scroll;
+        border-radius: 15px;
+    }
+
+    .brand_popup {
+        height: 100px;
+        width: 100%;
+        margin: 0px 0px;
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small_contant {
+        flex-wrap: wrap;
+    }
+
+    .img-fluidd {
+        max-width: 100%;
+        height: 70%;
+    }
+
+    .mt_15 {
+        margin-top: 15px;
+    }
+
+    .main_div {
+        width: 95% !important;
+        border-radius: 25px;
+        padding: 20px 25px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .section_div {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .poppup_div {
+        position: relative;
+        height: 140vh;
+        width: 100%;
+        font-family: 'Lora', serif;
+    }
+
+    .brand_modal {
+        height: 100px;
+        width: 45%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+
+    }
+}
+@media only screen and (max-width: 360px) {
+
+    /* poppup css and next pages */
+    .icon_link a {
+        text-decoration: none;
+    }
+
+    .social_mid {
+        width: 100%;
+        padding: 10px 05px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #552e57;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+    /* poppup css and next pages END*/
+
+    .acto_scrip {
+        padding-top: 30px;
+        font-size: 13px;
+    }
+
+    .acto_scrip a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .sponsor {
+        font-size: 25px;
+        font-family: 500;
+    }
+
+    .logo_img {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sponsorship_box p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .brand {
+        height: 10vh;
+        width: 28%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .poppup {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        height: 50vh;
+        background-color: white;
+        overflow: scroll;
+        border-radius: 15px;
+    }
+
+    .brand_popup {
+        height: 100px;
+        width: 100%;
+        margin: 0px 0px;
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small_contant {
+        flex-wrap: wrap;
+    }
+
+    .img-fluidd {
+        max-width: 100%;
+        height: 70%;
+    }
+
+    .mt_15 {
+        margin-top: 15px;
+    }
+
+    .main_div {
+        width: 95% !important;
+        border-radius: 25px;
+        padding: 20px 25px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .section_div {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .poppup_div {
+        position: relative;
+        height: 125vh;
+        width: 100%;
+        font-family: 'Lora', serif;
+    }
+
+    .brand_modal {
+        height: 100px;
+        width: 45%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    /* poppup css and next pages */
+    .icon_link a {
+        text-decoration: none;
+    }
+
+    .social_mid {
+        width: 100%;
+        padding: 10px 05px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: #552e57;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .foote_logo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* poppup css and next pages END*/
+
+    .acto_scrip {
+        padding-top: 30px;
+        font-size: 14px;
+        font-family: 400;
+    }
+
+    .acto_scrip a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .sponsor {
+        font-size: 25px;
+        font-family: 500;
+    }
+
+    .logo_img {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sponsorship_box p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .brand {
+        height: 10vh;
+        width: 28%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .poppup {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        height: 50vh;
+        background-color: white;
+        overflow: scroll;
+        border-radius: 15px;
+    }
+
+    .brand_popup {
+        height: 100px;
+        width: 100%;
+        margin: 0px 0px;
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small_contant {
+        flex-wrap: wrap;
+    }
+
+    .img-fluidd {
+        max-width: 100%;
+        height: 70%;
+    }
+
+    .mt_15 {
+        margin-top: 15px;
+    }
+
+    .main_div {
+        width: 95% !important;
+        border-radius: 25px;
+        padding: 20px 25px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .section_div {
+        position: relative;
+        height: 140vh;
+        width: 100%;
+    }
+
+    .poppup_div {
+        position: relative;
+        height: 190vh;
+        width: 100%;
+        font-family: 'Lora', serif;
+    }
+
+    .brand_modal {
+        height: 100px;
+        width: 60%;
+        /* margin: 12px; */
+        padding: 3px 8px;
+        border: 1px solid #34343482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+
+    }
+}
